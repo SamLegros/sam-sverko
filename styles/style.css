@@ -1,0 +1,91 @@
+:root {
+    --font-text: 'Lato', sans-serif;
+    --font-title: 'Montserrat', serif;
+    --color-background-grey: #F5F5F5;
+    --color-blue: #1C299D;
+    --color-button: #3F46AD;
+    --color-button-hover: var(--color-blue);
+    --color-grey: #6D6F7B;
+    --color-link: var(--color-blue);
+    --color-text-dark: #323648;
+    --color-text-grey: var(--color-grey);
+    --color-white: #FFFFFF;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--color-text-dark);
+    font-family: var(--font-text);
+    font-size: 1em;
+}
+
+button {
+    background-color: var(--color-button);
+    color: var(--color-white);
+}
+
+button:hover {
+    background-color: var(--color-button-hover);
+}
+
+h1 {
+    font-family: var(--font-title);
+    font-weight: bold;
+}
+
+nav {
+    background-color: var(--white);
+    margin: auto;
+    max-width: 1000px;
+    padding: 10px 30px !important;
+}
+
+nav li {
+    padding: 0px 10px;
+}
+
+.button-text {
+    padding: 10px;
+}
+
+#home-table {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home-hero.jpg") no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: calc(100vh - 70px);
+    margin: auto;
+    width: 100vw;
+}
+
+#home-name {
+    font-family: var(--font-title);
+    font-weight: bold;
+    margin: 0px;
+    padding: 50px;
+}
+
+#home-name p {
+    color: var(--white);
+    margin: 0px auto;
+    max-width: 1000px;
+    padding: 0px;
+}
+
+#home-name p:nth-child(1) {
+    font-size: 2em;
+}
+
+#home-name p:nth-child(2) {
+    font-size: 3em;
+}
+
+#section-about {
+}
+
+@media (max-width: 767px) {
+    #home-table {
+        height: calc(100vh - 56px);
+    }
+}
