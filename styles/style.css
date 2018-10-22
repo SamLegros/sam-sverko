@@ -2,6 +2,7 @@
     --font-text: 'Lato', sans-serif;
     --font-title: 'Montserrat', serif;
     --color-background-grey: #F5F5F5;
+    --color-border-grey: #A8A9B0;
     --color-blue: #1C299D;
     --color-button: #3F46AD;
     --color-button-hover: var(--color-blue);
@@ -72,10 +73,20 @@ nav li {
     color: var(--color-text-grey);
 }
 
+.font-family-text {
+    font-family: var(--font-text);
+}
+
+.text-emoji {
+    font-size: 2em;
+    line-height: 0em;
+    margin: 0px;
+    padding: 0px;
+}
+
 .toolbox-item {
     background-color: var(--white);
     margin: 10px;
-    /* height: 150px; */
     width: 150px;
 }
 
@@ -117,7 +128,7 @@ nav li {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 74px);
     margin: auto;
     min-width: 0px;
     width: 100vw;
@@ -165,9 +176,6 @@ nav li {
     padding: 0px 50px;
 }
 
-#section-about button {
-}
-
 #section-toolbox {
     background-color: var(--color-background-grey);
     padding-bottom: 25px;
@@ -187,6 +195,40 @@ nav li {
     margin: 10px auto;
 }
 
+#section-portfolio {
+    background-color: var(--color-background-grey);
+    padding: 0px 10px;
+    text-align: center;
+}
+
+#portfolio-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 1200px;
+    padding: 25px 0px;
+}
+
+.portfolio-item {
+    background-color: var(--white);
+    margin: 0px 10px 25px 10px;
+    max-width: 300px;
+    padding: 10px 10px 10px 10px;
+}
+
+.portfolio-item-title {
+    font-family: var(--font-title);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.portfolio-item-details {
+    padding: 10px 20px;
+}
+
 @media (max-width: 310px) {
     #home-name {
         padding: 0px;
@@ -194,8 +236,20 @@ nav li {
     }
 }
 
+@media (max-width: 369px) {
+    .portfolio-item-details {
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 769px) {
+    .portfolio-item {
+        margin: 0px 10px 25px 10px;
+    }
+}
+
 @media (max-width: 767px) {
     #home-table {
-        height: calc(100vh - 56px);
+        height: calc(100vh - 60px);
     }
 }
