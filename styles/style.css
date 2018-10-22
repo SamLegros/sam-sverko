@@ -82,8 +82,15 @@ nav li {
 
 .toolbox-item:hover {
     background-color: var(--color-blue);
-    color: var(--white) !important;
     cursor: pointer;
+}
+
+.toolbox-item a {
+    color: var(--color-text-dark);
+}
+
+.toolbox-item a:hover {
+    color: var(--white);
 }
 
 .toolbox-item p {
@@ -158,7 +165,7 @@ nav li {
 
 #section-toolbox {
     background-color: var(--color-background-grey);
-    padding: 0px 10px;
+    padding-bottom: 25px;
     text-align: center;
 }
 
