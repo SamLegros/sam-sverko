@@ -12,11 +12,26 @@
     --color-white: #FFFFFF;
 }
 
+a {
+    color: var(--color-blue);
+}
+
+a:hover {
+    color: var(--color-button);
+    text-decoration: none;
+}
+
+.site-link {
+    border-bottom: 1px solid var(--color-blue);
+    padding-bottom: 2px;
+}
+
 body {
     background-color: var(--white);
     color: var(--color-text-dark);
     font-family: var(--font-text);
     font-size: 1em;
+    overflow-x: hidden;
 }
 
 button {
@@ -44,8 +59,16 @@ nav li {
     padding: 0px 10px;
 }
 
+.border-red {
+    border: 1px solid red;
+}
+
 .button-text {
     padding: 10px;
+}
+
+.color-text-grey {
+    color: var(--color-text-grey);
 }
 
 #home-table {
@@ -56,6 +79,7 @@ nav li {
     -o-background-size: cover;
     height: calc(100vh - 70px);
     margin: auto;
+    min-width: 0px;
     width: 100vw;
 }
 
@@ -82,6 +106,33 @@ nav li {
 }
 
 #section-about {
+    margin: auto;
+    max-width: 1000px;
+    padding: 50px 10px;
+    text-align: center;
+}
+
+#section-about h1 {
+    padding-bottom: 25px;
+}
+
+#section-about img {
+    max-width: 200px;
+    padding-bottom: 25px;
+}
+
+#section-about .row div {
+    padding: 0px 50px;
+}
+
+#section-about button {
+}
+
+@media (max-width: 310px) {
+    #home-name {
+        padding: 0px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 767px) {
