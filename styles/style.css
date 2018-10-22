@@ -74,10 +74,9 @@ nav li {
 
 .toolbox-item {
     background-color: var(--white);
-    height: 150px;
-    width: 150px;
-    padding: 0px;
     margin: 10px;
+    /* height: 150px; */
+    width: 150px;
 }
 
 .toolbox-item:hover {
@@ -85,8 +84,14 @@ nav li {
     cursor: pointer;
 }
 
+.toolbox-item td {
+    padding: 0px;
+}
+
 .toolbox-item a {
+    display: block;
     color: var(--color-text-dark);
+    padding: 20px 0px;
 }
 
 .toolbox-item a:hover {
