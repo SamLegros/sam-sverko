@@ -73,6 +73,10 @@ nav li {
     color: var(--color-text-grey);
 }
 
+.fa-external-link-alt {
+    font-size: 1em !important;
+}
+
 .font-family-text {
     font-family: var(--font-text);
 }
@@ -201,32 +205,70 @@ nav li {
     text-align: center;
 }
 
-#portfolio-container {
+
+
+
+#portfolio-items-container {
+    align-items: stretch;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: auto;
     max-width: 1200px;
     padding: 25px 0px;
 }
 
-.portfolio-item {
-    background-color: var(--white);
-    margin: 0px 10px 25px 10px;
-    max-width: 300px;
-    padding: 10px 10px 10px 10px;
+.card {
+    margin: 0px 10px 50px 10px;
+    width: 350px;
 }
 
-.portfolio-item-title {
-    font-family: var(--font-title);
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 10px 0px;
+.card img {
+    opacity: 0.75;
+    padding: 10px;
 }
 
-.portfolio-item-details {
+.card-body {
     padding: 10px 20px;
+}
+
+.card-title {
+    font-family: var(--font-title);
+    font-weight: bold;
+}
+
+.badge {
+    opacity: 0.75;
+}
+
+.portfolio-dual-buttons {
+    margin: 0px;
+    padding: 0px;
+}
+
+.portfolio-dual-buttons div {
+    padding: 0px;
+}
+
+.portfolio-dual-buttons button {
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    width: 90%;
+}
+
+.btn-alt {
+    background-color: var(--white);
+    border: 1px solid var(--color-border-grey);
+    color: var(--color-text-dark);
+}
+
+.btn-alt:hover {
+    background-color: var(--white);
+    border: 1px solid var(--color-blue);
+    color: var(--color-blue);
 }
 
 @media (max-width: 310px) {
@@ -239,6 +281,12 @@ nav li {
 @media (max-width: 369px) {
     .portfolio-item-details {
         padding: 10px 0px;
+    }
+}
+
+@media (max-width: 575px) {
+    .btn-alt {
+        margin-top: 15px !important;
     }
 }
 
