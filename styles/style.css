@@ -3,6 +3,10 @@
     --font-title: 'Montserrat', serif;
     --color-background-grey: #F5F5F5;
     --color-border-grey: #A8A9B0;
+    --color-bootstrap-a11y-primary: #02549D;
+    --color-bootstrap-a11y-success: #2C632C;
+    --color-bootstrap-a11y-info: #17596D;
+    --color-bootstrap-a11y-danger: #A72925;
     --color-blue: #1C299D;
     --color-blue-light: #8591EA;
     --color-button: #3F46AD;
@@ -71,6 +75,22 @@ nav li {
 
 .badge {
     /* opacity: 0.75; */
+}
+
+.badge-danger {
+    background-color: var(--color-bootstrap-a11y-danger);
+}
+
+.badge-info {
+    background-color: var(--color-bootstrap-a11y-info);
+}
+
+.badge-primary {
+    background-color: var(--color-bootstrap-a11y-primary);
+}
+
+.badge-success {
+    background-color: var(--color-bootstrap-a11y-success);
 }
 
 .border-red {
