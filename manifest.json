@@ -1,0 +1,8 @@
+{
+    "short_name": "Portfolio",
+    "name": "Portfolio of Sam Legros",
+    "start_url": "index.html",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "theme_color": "#1C299D"
+}
