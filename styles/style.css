@@ -4,10 +4,12 @@
     --color-background-grey: #F5F5F5;
     --color-border-grey: #A8A9B0;
     --color-blue: #1C299D;
+    --color-blue-light: #8591EA;
     --color-button: #3F46AD;
     --color-button-hover: var(--color-blue);
     --color-grey: #6D6F7B;
     --color-link: var(--color-blue);
+    --color-red: #DC3545;
     --color-text-dark: #323648;
     --color-text-grey: var(--color-grey);
     --color-white: #FFFFFF;
@@ -20,10 +22,6 @@ a {
 a:hover {
     color: var(--color-button);
     text-decoration: none;
-}
-
-.badge {
-    opacity: 0.75;
 }
 
 body {
@@ -43,6 +41,17 @@ button:hover {
     background-color: var(--color-button-hover);
 }
 
+footer {
+    margin: 25px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+footer i {
+    color: var(--color-red);
+    opacity: 0.75;
+}
+
 h2 {
     font-family: var(--font-title);
     font-weight: bold;
@@ -58,6 +67,10 @@ nav {
 
 nav li {
     padding: 0px 10px;
+}
+
+.badge {
+    opacity: 0.75;
 }
 
 .border-red {
@@ -97,6 +110,10 @@ nav li {
 .card-title {
     font-family: var(--font-title);
     font-weight: bold;
+}
+
+.color-blue-light {
+    color: var(--color-blue-light);
 }
 
 .color-text-grey {
@@ -267,7 +284,8 @@ nav li {
     padding: 25px 0px;
 }
 
-#section-contact {
+#section-social {
+    padding: 10px;
     text-align: center;
 }
 
@@ -282,7 +300,7 @@ nav li {
     max-width: 300px;
 }
 
-#section-contact i {
+#section-social i {
     font-size: 3em;
     margin: 10px 20px;
 }

@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- online Google Font: Montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
     <!-- cdn Bootstrap 4.1.3 CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- cdn Devicon CSS -->
@@ -23,16 +25,16 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a data-scroll class="nav-link" href="#section-about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tech Toolbox</a>
+                        <a data-scroll class="nav-link" href="#section-toolbox">Tech Toolbox</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a data-scroll class="nav-link" href="#section-portfolio">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Social</a>
+                        <a data-scroll class="nav-link" href="#section-social">Social</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
@@ -44,14 +46,13 @@
             <tbody>
                 <tr>
                     <td class="align-middle" id="home-name">
-                        <p>Hi, I'm SAM!</p>
-                        <p>I'm a web developer.</p>
+                        <p>Hi, I'm <span class="color-blue-light">SAM</span>!</p>
+                        <p><span id="home-typed"></span></p>
                     </td>
                 </tr>
             </tbody>
         </table>
     </section>
-
     <section id="section-about">
         <h2>A little bit about me</h2>
         <div class="row">
@@ -75,7 +76,6 @@
             </div>
         </div>
     </section>
-
     <section id="section-toolbox">
         <div class="row">
             <div class="col-12">
@@ -206,7 +206,6 @@
             </div>
         </div>
     </section>
-
     <section id="section-portfolio">
         <h2>A few projects under my belt</h2>
         <p class="color-text-grey">From Bootstrap to PHP, every project I work on is made with <span class="text-emoji align-middle">❤️</span></p>
@@ -490,8 +489,7 @@
             </div>
         </div>
     </section>
-
-    <section id="section-contact">
+    <section id="section-social">
         <h2>Let's stay connected</h2>
         <p class="color-text-grey">There are many ways we can get in touch <span class="text-emoji align-middle">👋</span></p>
 
@@ -503,13 +501,19 @@
             <a href="tel:+16472299122" target="_blank"><i class="fas fa-phone-square"></i></a>
         </div>
     </section>
-
+    <footer>
+        <p>Website made with <i class="fas fa-heart"></i> by Sam Legros in 2018</p>
+    </footer>
     <!-- cdn jQuery 3.3.1 slim -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <!-- cdn Popper.js 1.14.3 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <!-- cdn Bootstrap JS 4.1.3 -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- cdn smooth-scroll 14.2.1 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.js" integrity="sha256-/DAPm4qYaIl0u9G+3JfLfQRAS5RE+LnP8/yzOyjtPRY=" crossorigin="anonymous"></script>
+    <!-- cdn typed.js 2.0.9 -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <!-- local JavaScript -->
     <script src="scripts/script.js"></script>
     <!-- local LiveReload -->
