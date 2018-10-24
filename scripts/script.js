@@ -25,8 +25,3 @@ function scrollFunction() {
         document.getElementById("back-to-top-button").style.display = "none";
     }
 }
-
-// general page
-$('.btn-alt').on('click', function() {
-    alert("Source code for projects coming soon!");
-});
