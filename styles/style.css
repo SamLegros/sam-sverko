@@ -69,6 +69,14 @@ nav li {
     padding: 0px 10px;
 }
 
+#back-to-top-button {
+    bottom: 20px;
+    display: none;
+    position: fixed;
+    right: 30px;
+    z-index: 99;
+}
+
 .badge {
     opacity: 0.75;
 }
