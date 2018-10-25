@@ -1,4 +1,5 @@
 :root {
+    --font-size: 1em;
     --font-text: 'Lato', sans-serif;
     --font-title: 'Montserrat', serif;
     --color-background-grey: #F5F5F5;
@@ -73,10 +74,6 @@ nav li {
     padding: 0px 10px;
 }
 
-.badge {
-    /* opacity: 0.75; */
-}
-
 .badge-danger {
     background-color: var(--color-bootstrap-a11y-danger);
 }
@@ -130,6 +127,10 @@ nav li {
 .card-title {
     font-family: var(--font-title);
     font-weight: bold;
+}
+
+.color-blue {
+    color: var(--color-blue);
 }
 
 .color-blue-light {
@@ -333,11 +334,24 @@ nav li {
     z-index: 99;
 }
 
-/* #change-font-size i {
+#section-settings {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#section-settings p {
+    color: var(--color-text-grey);
+}
+
+#section-settings i {
     cursor: pointer;
     font-size: 2em;
     margin: 5px 10px;
-} */
+}
+
+#section-settings button {
+    margin: 0px 10px;
+}
 
 @media (max-width: 310px) {
     #home-name {

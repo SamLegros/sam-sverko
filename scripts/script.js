@@ -25,3 +25,24 @@ function scrollFunction() {
         document.getElementById("back-to-top-button").style.display = "none";
     }
 }
+
+// resize font
+var resizeFontSection = document.getElementById('section-settings');
+var resizeButton = resizeFontSection.getElementsByTagName('button');
+
+for (var i = 0; i < resizeButton.length; i++) {
+    resizeButton[i].addEventListener('click', resizeFont.bind(this, (i*50)+100));
+}
+
+function resizeFont(size) {
+    fontSize = size+"%";
+    // location.href="#section-settings";
+    document.querySelector("body").style.fontSize = fontSize;
+    document.querySelector('.navbar-brand').style.fontSize = fontSize;
+    document.querySelector('h1').style.fontSize = fontSize;
+    document.querySelector('h2').style.fontSize = fontSize;
+    document.querySelector('h3').style.fontSize = fontSize;
+    document.getElementsByClassName('btn').style.fontSize = fontSize;
+
+    document.getElementById('section-settings').focus();
+}
