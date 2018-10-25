@@ -333,6 +333,12 @@ nav li {
     z-index: 99;
 }
 
+/* #change-font-size i {
+    cursor: pointer;
+    font-size: 2em;
+    margin: 5px 10px;
+} */
+
 @media (max-width: 310px) {
     #home-name {
         padding: 0px;
