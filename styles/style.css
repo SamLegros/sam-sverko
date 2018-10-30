@@ -2,6 +2,7 @@
     --font-size: 1em;
     --font-text: 'Lato', sans-serif;
     --font-title: 'Montserrat', serif;
+    --color-calendar-event: #FD6900; /* Halloween orange */
     --color-background-grey: #F5F5F5;
     --color-border-grey: #A8A9B0;
     --color-bootstrap-a11y-primary: #02549D;
@@ -33,7 +34,7 @@ body {
     background-color: var(--white);
     color: var(--color-text-dark);
     font-family: var(--font-text);
-    font-size: 1em;
+    font-size: var(--font-size);
     overflow-x: hidden;
 }
 
@@ -50,6 +51,10 @@ footer {
     margin: 25px 0px 0px 0px;
     padding: 0px 10px;
     text-align: center;
+}
+
+footer a {
+    padding: 10px 0px 20px 0px;
 }
 
 footer i {
@@ -129,6 +134,10 @@ nav li {
     font-weight: bold;
 }
 
+.color-calendar-event {
+    color: var(--color-calendar-event) !important;
+}
+
 .color-blue {
     color: var(--color-blue);
 }
@@ -142,7 +151,7 @@ nav li {
 }
 
 .fa-external-link-alt {
-    font-size: 1em !important;
+    font-size: var(--font-size);
 }
 
 .font-family-text {
@@ -172,7 +181,7 @@ nav li {
 }
 
 .text-emoji {
-    font-size: 2em;
+    font-size: calc(var(--font-size)*2);
     line-height: 0em;
     margin: 0px;
     padding: 0px;
@@ -209,7 +218,7 @@ nav li {
 }
 
 .toolbox-item i {
-    font-size: 3em;
+    font-size: calc(var(--font-size)*3);
 }
 
 .toolbox-text-spacer {
@@ -243,11 +252,7 @@ nav li {
 }
 
 #home-name p {
-    font-size: 2em;
-}
-
-#home-name p {
-    font-size: 3em;
+    font-size: calc(var(--font-size)*3);
 }
 
 #section-about {
@@ -322,7 +327,7 @@ nav li {
 }
 
 #section-social i {
-    font-size: 3em;
+    font-size: calc(var(--font-size)*3);
     margin: 10px 20px;
 }
 
@@ -335,7 +340,7 @@ nav li {
 }
 
 #section-settings {
-    margin-bottom: 50px;
+    margin: 10px 10px 50px 10px;
     text-align: center;
 }
 
@@ -343,14 +348,8 @@ nav li {
     color: var(--color-text-grey);
 }
 
-#section-settings i {
-    cursor: pointer;
-    font-size: 2em;
-    margin: 5px 10px;
-}
-
 #section-settings button {
-    margin: 0px 10px;
+    margin: 0px 10px 20px 10px;
 }
 
 @media (max-width: 310px) {

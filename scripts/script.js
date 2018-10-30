@@ -35,14 +35,29 @@ for (var i = 0; i < resizeButton.length; i++) {
 }
 
 function resizeFont(size) {
-    fontSize = size+"%";
-    // location.href="#section-settings";
-    document.querySelector("body").style.fontSize = fontSize;
-    document.querySelector('.navbar-brand').style.fontSize = fontSize;
-    document.querySelector('h1').style.fontSize = fontSize;
-    document.querySelector('h2').style.fontSize = fontSize;
-    document.querySelector('h3').style.fontSize = fontSize;
-    document.getElementsByClassName('btn').style.fontSize = fontSize;
-
-    document.getElementById('section-settings').focus();
+    var navBar = document.getElementsByClassName('navbar');
+    if (size == '200') {
+        $('#css-font-size-1-5').remove();
+        var fontSizeCSS = document.createElement('link');
+        fontSizeCSS.setAttribute('rel', 'stylesheet');
+        fontSizeCSS.setAttribute('type', 'text/css');
+        fontSizeCSS.setAttribute('href', 'styles/font-size-2.css');
+        fontSizeCSS.setAttribute('id', 'css-font-size-2');
+        document.getElementsByTagName('head')[0].appendChild(fontSizeCSS);
+        navBar[0].classList.remove('navbar-expand-md');
+    } else if (size == '150') {
+        $('#css-font-size-2').remove();
+        var fontSizeCSS = document.createElement('link');
+        fontSizeCSS.setAttribute('rel', 'stylesheet');
+        fontSizeCSS.setAttribute('type', 'text/css');
+        fontSizeCSS.setAttribute('href', 'styles/font-size-1-5.css');
+        fontSizeCSS.setAttribute('id', 'css-font-size-1-5');
+        document.getElementsByTagName('head')[0].appendChild(fontSizeCSS);
+        navBar[0].classList.remove('navbar-expand-md');
+    } else {
+        $('#css-font-size-1-5').remove();
+        $('#css-font-size-2').remove();
+        navBar[0].classList.add('navbar-expand-md');
+        var cssSheets = document.getElementsByTagName('link');
+    }
 }
