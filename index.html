@@ -1,553 +1,602 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics [script added: 2019-01-05] -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131763038-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-131763038-1');
-    </script>
-    <meta charset="utf-8">
-    <meta name="Description" content="The portfolio website of Sam Legros.">
-    <link rel="manifest" href="manifest.json">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- online Google Font: Montserrat -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
-    <!-- cdn Bootstrap CSS 4.1.3 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- cdn Devicon CSS -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <!-- online Font Awesome CSS 5.4.1 -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <!-- local CSS -->
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Portfolio | Sam Legros</title>
+	<!-- Website was last updated on: 2019-02-24 -->
+	<!-- Global site tag (gtag.js) - Google Analytics [script added: 2019-01-05] -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131763038-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-131763038-1');
+	</script>
+	<meta charset="utf-8">
+	<meta name="Description" content="The portfolio website of Sam Legros.">
+	<link rel="manifest" href="manifest.json">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- online Google Font: Montserrat -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+	<!-- cdn Bootstrap CSS 4.1.3 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- cdn Devicon CSS -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<!-- online Font Awesome CSS 5.4.1 -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<!-- local CSS -->
+	<link rel="stylesheet" href="styles/style.css">
+	<title>Portfolio | Sam Legros</title>
 </head>
 <body>
-    <section id="section-home">
-        <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand font-weight-bold" href="https://www.samsverko.com">Sam Legros</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a data-scroll class="nav-link" href="#section-about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a data-scroll class="nav-link" href="#section-toolbox"><span class="long-text">Tech Toolbox</span><span class="short-text">Toolbox</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a data-scroll class="nav-link" href="#section-portfolio">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a data-scroll class="nav-link" href="#section-connect">Connect</a>
-                    </li>
-                    <li class="nav-item">
-                        <a data-scroll class="nav-link" href="#section-settings">Settings</a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
-                    <a href="mailto:legros.sam@gmail.com?subject=Awesome%20Website!" title="This link will open your email client to send an email to Sam Legros"><button tabindex="-1" class="btn"><span class="button-text">CONTACT</span></button></a>
-                </span>
-            </div>
-        </nav>
-        <table id="home-table">
-            <tbody>
-                <tr>
-                    <td class="align-middle" id="home-name">
-                        <h1 tabindex="0">Hi, I'm <span class="color-blue-light">SAM</span>!</h1>
-                        <p tabindex="0" role="marquee"><span id="home-typed"></span></p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <section id="section-about">
-        <h2 tabindex="0">A little bit about&nbsp;me</h2>
-        <div class="row">
-            <div class="col-12">
-                <img tabindex="0" src="images/headshot_sam_legros_round.jpg" alt="headshot of Sam Legros" class="img-round rounded">
-            </div>
-            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 offset-md-0 color-text-grey text-left" style="padding-bottom: 25px;">
-                <p tabindex="0" class="font-weight-bold">Hi, I'm Sam and I'm a web developer <span class="text-emoji align-middle">👨🏻‍💻</span></p>
-                <p tabindex="0">I'm a natural problem solver who is not afraid of a challenge and believe that being able to have fun on the job makes any project&nbsp;possible.</p>
-                <p tabindex="0">I'm a "big picture"​ thinker who is able to visualize problems before they happen, leading to balanced, complete, and responsive projects in inclusive design and web development. Web development is my specialty, but working with people, for people is what I do&nbsp;best.</p>
-                <div class="p-0 pt-2 col-12 text-center text-md-left pl-md-0">
-                    <a tabindex="0" href="https://www.linkedin.com/in/samlegros/" target="_blank" rel="noopener" title="Link to Sam Legros' LinkedIn page"><button tabindex="-1" type="button" value="Go to Sam Legros' LinkedIn page" class="btn"><span class="button-text">VIEW MY LINKEDIN</span></button></a>
-                </div>
-            </div>
-            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 offset-md-0 color-text-grey text-left">
-                <p tabindex="0">I believe in working towards greater digital access for all, the passion and dedication of small teams, the unlimited potential of technology, and the power of a good night's&nbsp;sleep.</p>
-                <p tabindex="0">I'm a recent <a href="https://www.ryerson.ca/graduate/digitalmedia/" target="_blank" rel="noopener" class="site-link" title="Link to Ryerson University's Master of Digital Media website">Master of Digital Media <i class="fas fa-external-link-alt" title="external link icon"></i></a> grad, specializing in accessibility in web development and have a BFA in <a href="https://ryersonrta.ca/programs/bfa-new-media" target="_blank" rel="noopener" class="site-link"title="Link to Ryerson University's New Media website">New Media <i class="fas fa-external-link-alt" title="external link icon"></i></a> from Ryerson&nbsp;University.</p>
-                <p tabindex="0">When I'm not working, you can find me cooking, <a href="https://www.goodreads.com/user/show/46470866-sam-legros" target="_blank" rel="noopener" class="site-link" title="Link to Sam Legros' Goodreads page">reading <i class="fas fa-external-link-alt" title="external link icon"></i></a>, or <a href="https://www.igdb.com/users/samlegros/lists" target="_blank" rel="noopener" class="site-link" title="Link to Sam Legros' IGDb page">playing games <i class="fas fa-external-link-alt" title="external link icon"></i></a>, usually in that&nbsp;order.</p>
-                <div class="row">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="section-toolbox">
-        <div class="row">
-            <div class="col-12">
-                <h2 tabindex="0">Inside my tech&nbsp;toolbox</h2>
-                <p tabindex="0" class="color-text-grey">My tech toolbox is always growing&nbsp;<span class="text-emoji align-middle">🔧</span></p>
-            </div>
-            <div id="toolbox-container">
-                <table class="toolbox-item"><!-- Amazon Web Services -->
-                    <tbody>
-                        <tr>
-                            <td class="align-middle"><a href="https://aws.amazon.com/" target="_blank" rel="noopener">
-                                <p>
-                                    <i class="devicon-amazonwebservices-original" title="amazon web services icon"></i><br class="toolbox-text-spacer">
-                                    AWS
-                                </p>
-                            </a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="toolbox-item"><!-- Bootstrap -->
-                    <tbody>
-                        <tr>
-                            <td class="align-middle"><a href="https://getbootstrap.com/" target="_blank" rel="noopener">
-                                <p>
-                                    <i class="devicon-bootstrap-plain" title="bootstrap icon"></i><br class="toolbox-text-spacer">
-                                    Bootstrap
-                                </p>
-                            </a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="toolbox-item"><!-- CSS3 -->
-                    <tbody>
-                        <tr>
-                            <td class="align-middle"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank" rel="noopener">
-                                <p>
-                                    <i class="devicon-css3-plain" title="css3 icon"></i><br class="toolbox-text-spacer">
-                                    CSS3
-                                </p>
-                            </a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="toolbox-item"><!-- Git -->
-                    <tbody>
-                        <tr>
-                            <td class="align-middle"><a href="https://git-scm.com/" target="_blank" rel="noopener">
-                                <p>
-                                    <i class="devicon-git-plain" title="git icon"></i><br class="toolbox-text-spacer">
-                                    Git
-                                </p>
-                            </a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="toolbox-item"><!-- GitHub -->
-                    <tbody>
-                        <tr>
-                            <td class="align-middle"><a href="https://github.com/" target="_blank" rel="noopener">
-                                <p>
-                                    <i class="devicon-github-plain" title="github icon"></i><br class="toolbox-text-spacer">
-                                    GitHub
-                                </p>
-                            </a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="toolbox-item"><!-- HTML5 -->
-                    <tbody>
-                        <tr>
-                            <td class="align-middle"><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank" rel="noopener">
-                                <p>
-                                    <i class="devicon-html5-plain" title="html5 icon"></i><br class="toolbox-text-spacer">
-                                    HTML5
-                                </p>
-                            </a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="toolbox-item"><!-- JavaScript -->
-                    <tbody>
-                        <tr>
-                            <td class="align-middle"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener">
-                                <p>
-                                    <i class="devicon-javascript-plain" title="javascript icon"></i><br class="toolbox-text-spacer">
-                                    JavaScript
-                                </p>
-                            </a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="toolbox-item"><!-- jQuery -->
-                    <tbody>
-                        <tr>
-                            <td class="align-middle"><a href="https://jquery.com/" target="_blank" rel="noopener">
-                                <p>
-                                    <i class="devicon-jquery-plain" title="jquery icon"></i><br class="toolbox-text-spacer">
-                                    jQuery
-                                </p>
-                            </a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="toolbox-item"><!-- mySQL -->
-                    <tbody>
-                        <tr>
-                            <td class="align-middle"><a href="https://www.mysql.com/" target="_blank" rel="noopener">
-                                <p>
-                                    <i class="devicon-mysql-plain" title="mysql icon"></i><br class="toolbox-text-spacer">
-                                    mySQL
-                                </p>
-                            </a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="toolbox-item"><!-- PHP -->
-                    <tbody>
-                        <tr>
-                            <td class="align-middle"><a href="http://www.php.net/" target="_blank" rel="noopener">
-                                <p>
-                                    <i class="devicon-php-plain" title="php icon"></i><br class="toolbox-text-spacer">
-                                    PHP
-                                </p>
-                            </a></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-    <section id="section-portfolio">
-        <h2 tabindex="0">A few projects under my&nbsp;belt</h2>
-        <p tabindex="0" class="color-text-grey">From Bootstrap to PHP, every project I work on is made with&nbsp;<span class="text-emoji align-middle">❤️</span></p>
-        <div id="portfolio-items-container">
-            <div tabindex="0" class="card"><!-- Build for All -->
-                <img class="card-img-top" src="images/portfolio_build_for_all.png" alt="Graphic of two people working together">
-                <div class="card-body">
-                    <h3 class="card-title">Build for All</h3>
-                    <p class="card-text">Providing startups with accessible and inclusive resources</p>
-                    <p class="font-family-text portfolio-item-tools">
-                        <span class="badge badge-primary">Bootstrap</span>
-                        <span class="badge badge-secondary">CSS3</span>
-                        <span class="badge badge-success">HTML5</span>
-                        <span class="badge badge-danger">JavaScript</span>
-                        <span class="badge badge-warning">jQuery</span>
-                        <span class="badge badge-info">mySQL</span>
-                        <span class="badge badge-light">PHP</span>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <a href="http://buildforall.ca/" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
-                </div>
-            </div>
-            <div tabindex="0" class="card"><!-- JavaScript Calculator -->
-                <img class="card-img-top" src="images/portfolio_javascript_calculator.png" alt="Screenshot of javascript calculator page">
-                <div class="card-body">
-                    <h3 class="card-title">JavaScript Calculator</h3>
-                    <p class="card-text">Perfect when your pocket calculator runs out of battery</p>
-                    <p class="font-family-text portfolio-item-tools">
-                        <span class="badge badge-primary">Bootstrap</span>
-                        <span class="badge badge-secondary">CSS3</span>
-                        <span class="badge badge-success">HTML5</span>
-                        <span class="badge badge-danger">JavaScript</span>
-                        <span class="badge badge-warning">jQuery</span>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <div class="row portfolio-dual-buttons">
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://codepen.io/SamLegros/full/mMbzLo" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
-                        </div>
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://github.com/SamLegros/javascript-calculator" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div tabindex="0" class="card"><!-- MenuVox -->
-                <img class="card-img-top" src="images/portfolio_menuvox.jpg" alt="Restaurant table with glass of water, menu, smart phone, and sun glasses on it.">
-                <div class="card-body">
-                    <h3 class="card-title">MenuVox</h3>
-                    <p class="card-text">Restaurant menus made accessible</p>
-                    <p class="font-family-text portfolio-item-tools">
-                        <span class="badge badge-primary">Bootstrap</span>
-                        <span class="badge badge-secondary">CSS3</span>
-                        <span class="badge badge-dark">Google Maps API</span>
-                        <span class="badge badge-success">HTML5</span>
-                        <span class="badge badge-danger">JavaScript</span>
-                        <span class="badge badge-warning">jQuery</span>
-                        <span class="badge badge-info">mySQL</span>
-                        <span class="badge badge-light">PHP</span>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://www.menuvox.com/" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
-                </div>
-            </div>
-            <div tabindex="0" class="card"><!-- Local Weather -->
-                <img class="card-img-top" src="images/portfolio_local_weather.jpg" alt="Screenshot of local weather page">
-                <div class="card-body">
-                    <h3 class="card-title">Local Weather</h3>
-                    <p class="card-text">Your local weather at a glance</p>
-                    <p class="font-family-text portfolio-item-tools">
-                        <span class="badge badge-primary">Bootstrap</span>
-                        <span class="badge badge-secondary">CSS3</span>
-                        <span class="badge badge-dark">Dark Sky API</span>
-                        <span class="badge badge-success">HTML5</span>
-                        <span class="badge badge-danger">JavaScript</span>
-                        <span class="badge badge-warning">jQuery</span>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <div class="row portfolio-dual-buttons">
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://codepen.io/SamLegros/full/rwjaRq" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
-                        </div>
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://github.com/SamLegros/local-weather" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div tabindex="0" class="card"><!-- Pomodoro Clock -->
-                <img class="card-img-top" src="images/portfolio_pomodoro_clock.png" alt="Screenshot of pomodoro clock page">
-                <div class="card-body">
-                    <h3 class="card-title">Pomodoro Clock</h3>
-                    <p class="card-text">Helping you stay productive</p>
-                    <p class="font-family-text portfolio-item-tools">
-                        <span class="badge badge-primary">Bootstrap</span>
-                        <span class="badge badge-secondary">CSS3</span>
-                        <span class="badge badge-success">HTML5</span>
-                        <span class="badge badge-danger">JavaScript</span>
-                        <span class="badge badge-warning">jQuery</span>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <div class="row portfolio-dual-buttons">
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://codepen.io/SamLegros/full/prJeyW" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
-                        </div>
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://github.com/SamLegros/pomodoro-clock" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div tabindex="0" class="card"><!-- Product Landing Page -->
-                <img class="card-img-top" src="images/portfolio_product_landing_page.png" alt="Oddball logo.">
-                <div class="card-body">
-                    <h3 class="card-title">Product Landing Page</h3>
-                    <p class="card-text">Landing page tribute to the Oddball</p>
-                    <p class="font-family-text portfolio-item-tools">
-                        <span class="badge badge-secondary">CSS3</span>
-                        <span class="badge badge-success">HTML5</span>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <div class="row portfolio-dual-buttons">
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://codepen.io/SamLegros/full/yRBdMO" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
-                        </div>
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://github.com/SamLegros/build-a-product-landing-page" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div tabindex="0" class="card"><!-- Random Quote Machine -->
-                <img class="card-img-top" src="images/portfolio_random_quote_machine.png" alt="Screenshot of random quote machine page">
-                <div class="card-body">
-                    <h3 class="card-title">Random Quote Machine</h3>
-                    <p class="card-text">Generate beautiful quotes, and you can tweet them too</p>
-                    <p class="font-family-text portfolio-item-tools">
-                        <span class="badge badge-primary">Bootstrap</span>
-                        <span class="badge badge-secondary">CSS3</span>
-                        <span class="badge badge-dark">Forismatic API</span>
-                        <span class="badge badge-success">HTML5</span>
-                        <span class="badge badge-danger">JavaScript</span>
-                        <span class="badge badge-warning">jQuery</span>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <div class="row portfolio-dual-buttons">
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://codepen.io/SamLegros/full/KqNVvZ" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
-                        </div>
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://github.com/SamLegros/random-quote-machine" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div tabindex="0" class="card"><!-- Sam Says -->
-                <img class="card-img-top" src="images/portfolio_sam_says.png" alt="Screenshot of sam says (similar to simon says) page">
-                <div class="card-body">
-                    <h3 class="card-title">Sam Says</h3>
-                    <p class="card-text">Sam says to play this game</p>
-                    <p class="font-family-text portfolio-item-tools">
-                        <span class="badge badge-primary">Bootstrap</span>
-                        <span class="badge badge-secondary">CSS3</span>
-                        <span class="badge badge-success">HTML5</span>
-                        <span class="badge badge-danger">JavaScript</span>
-                        <span class="badge badge-warning">jQuery</span>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <div class="row portfolio-dual-buttons">
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://codepen.io/SamLegros/full/WEQWaj" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
-                        </div>
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://github.com/SamLegros/sam-says" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div tabindex="0" class="card"><!-- Technical Documentation Page -->
-                <img class="card-img-top" src="images/portfolio_technical_documentation_page.png" alt="Screenshot of technical web api documentation page">
-                <div class="card-body">
-                    <h3 class="card-title">Technical Documentation Page</h3>
-                    <p class="card-text">Slack theme inspired API documentation page</p>
-                    <p class="font-family-text portfolio-item-tools">
-                        <span class="badge badge-secondary">CSS3</span>
-                        <span class="badge badge-success">HTML5</span>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <div class="row portfolio-dual-buttons">
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://codepen.io/SamLegros/full/yRLRyq" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
-                        </div>
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://github.com/SamLegros/build-a-technical-documentation-page" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div tabindex="0" class="card"><!-- Tic Tac Toe -->
-                <img class="card-img-top" src="images/portfolio_tic_tac_toe.png" alt="Screenshot of tic tac toe page">
-                <div class="card-body">
-                    <h3 class="card-title">Tic Tac Toe</h3>
-                    <p class="card-text">Can you defeat the computer?</p>
-                    <p class="font-family-text portfolio-item-tools">
-                        <span class="badge badge-primary">Bootstrap</span>
-                        <span class="badge badge-secondary">CSS3</span>
-                        <span class="badge badge-success">HTML5</span>
-                        <span class="badge badge-danger">JavaScript</span>
-                        <span class="badge badge-warning">jQuery</span>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <div class="row portfolio-dual-buttons">
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://codepen.io/SamLegros/full/LjpVYE" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
-                        </div>
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://github.com/SamLegros/tic-tac-toe" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div tabindex="0" class="card"><!-- Twitch.tv Streamer Status -->
-                <img class="card-img-top" src="images/portfolio_twitch_streamer_status.png" alt="Screenshot of twitch page">
-                <div class="card-body">
-                    <h3 class="card-title">Twitch.tv Streamer Status</h3>
-                    <p class="card-text">A dashboard for Twitch.tv streamers</p>
-                    <p class="font-family-text portfolio-item-tools">
-                        <span class="badge badge-primary">Bootstrap</span>
-                        <span class="badge badge-secondary">CSS3</span>
-                        <span class="badge badge-success">HTML5</span>
-                        <span class="badge badge-danger">JavaScript</span>
-                        <span class="badge badge-warning">jQuery</span>
-                        <span class="badge badge-dark">Twitch API</span>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <div class="row portfolio-dual-buttons">
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://codepen.io/SamLegros/full/owdYOL" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
-                        </div>
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://github.com/SamLegros/twitch-streamer-status" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div tabindex="0" class="card"><!-- Wikipedia Viewer -->
-                <img class="card-img-top" src="images/portfolio_wikipedia_viewer.png" alt="Screenshot of wikipedia viewer page">
-                <div class="card-body">
-                    <h3 class="card-title">Wikipedia Viewer</h3>
-                    <p class="card-text">A minimal wikipedia search tool</p>
-                    <p class="font-family-text portfolio-item-tools">
-                        <span class="badge badge-primary">Bootstrap</span>
-                        <span class="badge badge-secondary">CSS3</span>
-                        <span class="badge badge-success">HTML5</span>
-                        <span class="badge badge-danger">JavaScript</span>
-                        <span class="badge badge-warning">jQuery</span>
-                        <span class="badge badge-dark">Wikipedia API</span>
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <div class="row portfolio-dual-buttons">
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://codepen.io/SamLegros/full/KqQwbe" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
-                        </div>
-                        <div class="col-8 offset-2 col-sm-6 offset-sm-0">
-                            <a href="https://github.com/SamLegros/wikipedia-viewer" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="section-connect">
-        <h2 tabindex="0">Let's stay connected</h2>
-        <p tabindex="0" class="color-text-grey">There are many ways we can get in touch&nbsp;<span class="text-emoji align-middle">👋</span></p>
+	<section id="section-home">
+		<nav class="navbar navbar-expand-md navbar-light">
+			<a class="navbar-brand font-weight-bold" href="https://www.samsverko.com">Sam Legros</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#section-about">About</a>
+					</li>
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#section-toolbox"><span class="long-text">Tech Toolbox</span><span class="short-text">Toolbox</span></a>
+					</li>
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#section-portfolio">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#section-connect">Connect</a>
+					</li>
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#section-settings">Settings</a>
+					</li>
+				</ul>
+				<span class="navbar-text">
+					<a href="mailto:legros.sam@gmail.com?subject=Awesome%20Website!" title="This link will open your email client to send an email to Sam Legros"><button tabindex="-1" class="btn"><span class="button-text">CONTACT</span></button></a>
+				</span>
+			</div>
+		</nav>
+		<table id="home-table">
+			<tbody>
+				<tr>
+					<td class="align-middle" id="home-name">
+						<h1 tabindex="0">Hi, I'm <span class="color-blue-light">SAM</span>!</h1>
+						<p tabindex="0" role="marquee"><span id="home-typed"></span></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<section id="section-about">
+		<h2 tabindex="0">A little bit about&nbsp;me</h2>
+		<div class="row">
+			<div class="col-12">
+				<img tabindex="0" src="images/headshot_sam_legros_round.jpg" alt="headshot of Sam Legros" class="img-round rounded">
+			</div>
+			<div class="col-12 col-sm-10 offset-sm-1 col-md-6 offset-md-0 color-text-grey text-left" style="padding-bottom: 25px;">
+				<p tabindex="0" class="font-weight-bold">Hi, I'm Sam and I'm a web developer <span class="text-emoji align-middle">👨🏻‍💻</span></p>
+				<p tabindex="0">I'm a natural problem solver who is not afraid of a challenge and believe that being able to have fun on the job makes any project&nbsp;possible.</p>
+				<p tabindex="0">I'm a "big picture"​ thinker who is able to visualize problems before they happen, leading to balanced, complete, and responsive projects in inclusive design and web development. Web development is my specialty, but working with people, for people is what I do&nbsp;best.</p>
+				<div class="p-0 pt-2 col-12 text-center text-md-left pl-md-0">
+					<a tabindex="0" href="https://www.linkedin.com/in/samlegros/" target="_blank" rel="noopener" title="Link to Sam Legros' LinkedIn page"><button tabindex="-1" type="button" value="Go to Sam Legros' LinkedIn page" class="btn"><span class="button-text">VIEW MY LINKEDIN</span></button></a>
+				</div>
+			</div>
+			<div class="col-12 col-sm-10 offset-sm-1 col-md-6 offset-md-0 color-text-grey text-left">
+				<p tabindex="0">I believe in working towards greater digital access for all, the passion and dedication of small teams, the unlimited potential of technology, and the power of a good night's&nbsp;sleep.</p>
+				<p tabindex="0">I'm have a <a href="https://www.ryerson.ca/graduate/digitalmedia/" target="_blank" rel="noopener" class="site-link" title="Link to Ryerson University's Master of Digital Media website">Master of Digital Media <i class="fas fa-external-link-alt" title="external link icon"></i></a>, specializing in accessibility in web development and have a BFA in <a href="https://ryersonrta.ca/programs/bfa-new-media" target="_blank" rel="noopener" class="site-link"title="Link to Ryerson University's New Media website">New Media <i class="fas fa-external-link-alt" title="external link icon"></i></a> from Ryerson&nbsp;University.</p>
+				<p tabindex="0">When I'm not working, you can find me cooking, <a href="https://www.goodreads.com/user/show/46470866-sam-legros" target="_blank" rel="noopener" class="site-link" title="Link to Sam Legros' Goodreads page">reading <i class="fas fa-external-link-alt" title="external link icon"></i></a>, or <a href="https://www.igdb.com/users/samlegros/lists" target="_blank" rel="noopener" class="site-link" title="Link to Sam Legros' IGDb page">playing games <i class="fas fa-external-link-alt" title="external link icon"></i></a>, usually in that&nbsp;order.</p>
+				<div class="row">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section-toolbox">
+		<div class="row">
+			<div class="col-12">
+				<h2 tabindex="0">Inside my tech&nbsp;toolbox</h2>
+				<p tabindex="0" class="color-text-grey">My tech toolbox is always growing&nbsp;<span class="text-emoji align-middle">🔧</span></p>
+			</div>
+			<div id="toolbox-container">
+				<table class="toolbox-item"><!-- Amazon Web Services -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="https://aws.amazon.com/" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-amazonwebservices-original" title="amazon web services icon"></i><br class="toolbox-text-spacer">
+									AWS
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="toolbox-item"><!-- Bootstrap -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="https://getbootstrap.com/" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-bootstrap-plain" title="bootstrap icon"></i><br class="toolbox-text-spacer">
+									Bootstrap
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="toolbox-item"><!-- CSS3 -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-css3-plain" title="css3 icon"></i><br class="toolbox-text-spacer">
+									CSS3
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="toolbox-item"><!-- Git -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="https://git-scm.com/" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-git-plain" title="git icon"></i><br class="toolbox-text-spacer">
+									Git
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="toolbox-item"><!-- GitHub -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="https://github.com/" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-github-plain" title="github icon"></i><br class="toolbox-text-spacer">
+									GitHub
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="toolbox-item"><!-- HTML5 -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-html5-plain" title="html5 icon"></i><br class="toolbox-text-spacer">
+									HTML5
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="toolbox-item"><!-- JavaScript -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-javascript-plain" title="javascript icon"></i><br class="toolbox-text-spacer">
+									JavaScript
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="toolbox-item"><!-- jQuery -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="https://jquery.com/" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-jquery-plain" title="jquery icon"></i><br class="toolbox-text-spacer">
+									jQuery
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="toolbox-item"><!-- mySQL -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="https://www.mysql.com/" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-mysql-plain" title="mysql icon"></i><br class="toolbox-text-spacer">
+									mySQL
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="toolbox-item"><!-- PHP -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="http://www.php.net/" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-php-plain" title="php icon"></i><br class="toolbox-text-spacer">
+									PHP
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="toolbox-item toolbox-item-learning"><!-- mongoDB -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="https://www.mongodb.com/" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-mongodb-plain" title="mongodb icon"></i><br class="toolbox-text-spacer">
+									MongoDB (learning)
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="toolbox-item toolbox-item-learning"><!-- express.js -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="https://expressjs.com/" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-express-original" title="expressjs icon"></i><br class="toolbox-text-spacer">
+									Express.js (learning)
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="toolbox-item toolbox-item-learning"><!-- react -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="https://reactjs.org/" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-react-original" title="react icon"></i><br class="toolbox-text-spacer">
+									React (learning)
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="toolbox-item toolbox-item-learning"><!-- node.js -->
+					<tbody>
+						<tr>
+							<td class="align-middle"><a href="https://nodejs.org/en/" target="_blank" rel="noopener">
+								<p>
+									<i class="devicon-nodejs-plain" title="nodejs icon"></i><br class="toolbox-text-spacer">
+									Node.js (learning)
+								</p>
+							</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+	<section id="section-portfolio">
+		<h2 tabindex="0">A few projects under my&nbsp;belt</h2>
+		<p tabindex="0" class="color-text-grey">From Bootstrap to PHP, every project I work on is made with&nbsp;<span class="text-emoji align-middle">❤️</span></p>
+		<div id="portfolio-items-container">
+			<div tabindex="0" class="card"><!-- Build for All -->
+				<img class="card-img-top" src="images/portfolio_build_for_all.png" alt="Graphic of two people working together">
+				<div class="card-body">
+					<h3 class="card-title">Build for All</h3>
+					<p class="card-text">Providing startups with accessible and inclusive resources</p>
+					<p class="font-family-text portfolio-item-tools">
+						<span class="badge badge-primary">Bootstrap</span>
+						<span class="badge badge-secondary">CSS3</span>
+						<span class="badge badge-success">HTML5</span>
+						<span class="badge badge-danger">JavaScript</span>
+						<span class="badge badge-warning">jQuery</span>
+						<span class="badge badge-info">mySQL</span>
+						<span class="badge badge-light">PHP</span>
+					</p>
+				</div>
+				<div class="card-footer">
+					<a href="http://buildforall.ca/" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
+				</div>
+			</div>
+			<div tabindex="0" class="card"><!-- JavaScript Calculator -->
+				<img class="card-img-top" src="images/portfolio_javascript_calculator.png" alt="Screenshot of javascript calculator page">
+				<div class="card-body">
+					<h3 class="card-title">JavaScript Calculator</h3>
+					<p class="card-text">Perfect when your pocket calculator runs out of battery</p>
+					<p class="font-family-text portfolio-item-tools">
+						<span class="badge badge-primary">Bootstrap</span>
+						<span class="badge badge-secondary">CSS3</span>
+						<span class="badge badge-success">HTML5</span>
+						<span class="badge badge-danger">JavaScript</span>
+						<span class="badge badge-warning">jQuery</span>
+					</p>
+				</div>
+				<div class="card-footer">
+					<div class="row portfolio-dual-buttons">
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://codepen.io/SamLegros/full/mMbzLo" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
+						</div>
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://github.com/SamLegros/javascript-calculator" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div tabindex="0" class="card"><!-- MenuVox -->
+				<img class="card-img-top" src="images/portfolio_menuvox.jpg" alt="Restaurant table with glass of water, menu, smart phone, and sun glasses on it.">
+				<div class="card-body">
+					<h3 class="card-title">MenuVox</h3>
+					<p class="card-text">Restaurant menus made accessible</p>
+					<p class="font-family-text portfolio-item-tools">
+						<span class="badge badge-primary">Bootstrap</span>
+						<span class="badge badge-secondary">CSS3</span>
+						<span class="badge badge-dark">Google Maps API</span>
+						<span class="badge badge-success">HTML5</span>
+						<span class="badge badge-danger">JavaScript</span>
+						<span class="badge badge-warning">jQuery</span>
+						<span class="badge badge-info">mySQL</span>
+						<span class="badge badge-light">PHP</span>
+					</p>
+				</div>
+				<div class="card-footer">
+					<a href="https://www.menuvox.com/" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
+				</div>
+			</div>
+			<div tabindex="0" class="card"><!-- Local Weather -->
+				<img class="card-img-top" src="images/portfolio_local_weather.jpg" alt="Screenshot of local weather page">
+				<div class="card-body">
+					<h3 class="card-title">Local Weather</h3>
+					<p class="card-text">Your local weather at a glance</p>
+					<p class="font-family-text portfolio-item-tools">
+						<span class="badge badge-primary">Bootstrap</span>
+						<span class="badge badge-secondary">CSS3</span>
+						<span class="badge badge-dark">Dark Sky API</span>
+						<span class="badge badge-success">HTML5</span>
+						<span class="badge badge-danger">JavaScript</span>
+						<span class="badge badge-warning">jQuery</span>
+					</p>
+				</div>
+				<div class="card-footer">
+					<div class="row portfolio-dual-buttons">
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://codepen.io/SamLegros/full/rwjaRq" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
+						</div>
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://github.com/SamLegros/local-weather" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div tabindex="0" class="card"><!-- Pomodoro Clock -->
+				<img class="card-img-top" src="images/portfolio_pomodoro_clock.png" alt="Screenshot of pomodoro clock page">
+				<div class="card-body">
+					<h3 class="card-title">Pomodoro Clock</h3>
+					<p class="card-text">Helping you stay productive</p>
+					<p class="font-family-text portfolio-item-tools">
+						<span class="badge badge-primary">Bootstrap</span>
+						<span class="badge badge-secondary">CSS3</span>
+						<span class="badge badge-success">HTML5</span>
+						<span class="badge badge-danger">JavaScript</span>
+						<span class="badge badge-warning">jQuery</span>
+					</p>
+				</div>
+				<div class="card-footer">
+					<div class="row portfolio-dual-buttons">
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://codepen.io/SamLegros/full/prJeyW" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
+						</div>
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://github.com/SamLegros/pomodoro-clock" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div tabindex="0" class="card"><!-- Product Landing Page -->
+				<img class="card-img-top" src="images/portfolio_product_landing_page.png" alt="Oddball logo.">
+				<div class="card-body">
+					<h3 class="card-title">Product Landing Page</h3>
+					<p class="card-text">Landing page tribute to the Oddball</p>
+					<p class="font-family-text portfolio-item-tools">
+						<span class="badge badge-secondary">CSS3</span>
+						<span class="badge badge-success">HTML5</span>
+					</p>
+				</div>
+				<div class="card-footer">
+					<div class="row portfolio-dual-buttons">
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://codepen.io/SamLegros/full/yRBdMO" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
+						</div>
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://github.com/SamLegros/build-a-product-landing-page" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div tabindex="0" class="card"><!-- Random Quote Machine -->
+				<img class="card-img-top" src="images/portfolio_random_quote_machine.png" alt="Screenshot of random quote machine page">
+				<div class="card-body">
+					<h3 class="card-title">Random Quote Machine</h3>
+					<p class="card-text">Generate beautiful quotes, and you can tweet them too</p>
+					<p class="font-family-text portfolio-item-tools">
+						<span class="badge badge-primary">Bootstrap</span>
+						<span class="badge badge-secondary">CSS3</span>
+						<span class="badge badge-dark">Forismatic API</span>
+						<span class="badge badge-success">HTML5</span>
+						<span class="badge badge-danger">JavaScript</span>
+						<span class="badge badge-warning">jQuery</span>
+					</p>
+				</div>
+				<div class="card-footer">
+					<div class="row portfolio-dual-buttons">
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://codepen.io/SamLegros/full/KqNVvZ" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
+						</div>
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://github.com/SamLegros/random-quote-machine" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div tabindex="0" class="card"><!-- Sam Says -->
+				<img class="card-img-top" src="images/portfolio_sam_says.png" alt="Screenshot of sam says (similar to simon says) page">
+				<div class="card-body">
+					<h3 class="card-title">Sam Says</h3>
+					<p class="card-text">Sam says to play this game</p>
+					<p class="font-family-text portfolio-item-tools">
+						<span class="badge badge-primary">Bootstrap</span>
+						<span class="badge badge-secondary">CSS3</span>
+						<span class="badge badge-success">HTML5</span>
+						<span class="badge badge-danger">JavaScript</span>
+						<span class="badge badge-warning">jQuery</span>
+					</p>
+				</div>
+				<div class="card-footer">
+					<div class="row portfolio-dual-buttons">
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://codepen.io/SamLegros/full/WEQWaj" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
+						</div>
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://github.com/SamLegros/sam-says" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div tabindex="0" class="card"><!-- Technical Documentation Page -->
+				<img class="card-img-top" src="images/portfolio_technical_documentation_page.png" alt="Screenshot of technical web api documentation page">
+				<div class="card-body">
+					<h3 class="card-title">Technical Documentation Page</h3>
+					<p class="card-text">Slack theme inspired API documentation page</p>
+					<p class="font-family-text portfolio-item-tools">
+						<span class="badge badge-secondary">CSS3</span>
+						<span class="badge badge-success">HTML5</span>
+					</p>
+				</div>
+				<div class="card-footer">
+					<div class="row portfolio-dual-buttons">
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://codepen.io/SamLegros/full/yRLRyq" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
+						</div>
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://github.com/SamLegros/build-a-technical-documentation-page" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div tabindex="0" class="card"><!-- Tic Tac Toe -->
+				<img class="card-img-top" src="images/portfolio_tic_tac_toe.png" alt="Screenshot of tic tac toe page">
+				<div class="card-body">
+					<h3 class="card-title">Tic Tac Toe</h3>
+					<p class="card-text">Can you defeat the computer?</p>
+					<p class="font-family-text portfolio-item-tools">
+						<span class="badge badge-primary">Bootstrap</span>
+						<span class="badge badge-secondary">CSS3</span>
+						<span class="badge badge-success">HTML5</span>
+						<span class="badge badge-danger">JavaScript</span>
+						<span class="badge badge-warning">jQuery</span>
+					</p>
+				</div>
+				<div class="card-footer">
+					<div class="row portfolio-dual-buttons">
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://codepen.io/SamLegros/full/LjpVYE" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
+						</div>
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://github.com/SamLegros/tic-tac-toe" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div tabindex="0" class="card"><!-- Twitch.tv Streamer Status -->
+				<img class="card-img-top" src="images/portfolio_twitch_streamer_status.png" alt="Screenshot of twitch page">
+				<div class="card-body">
+					<h3 class="card-title">Twitch.tv Streamer Status</h3>
+					<p class="card-text">A dashboard for Twitch.tv streamers</p>
+					<p class="font-family-text portfolio-item-tools">
+						<span class="badge badge-primary">Bootstrap</span>
+						<span class="badge badge-secondary">CSS3</span>
+						<span class="badge badge-success">HTML5</span>
+						<span class="badge badge-danger">JavaScript</span>
+						<span class="badge badge-warning">jQuery</span>
+						<span class="badge badge-dark">Twitch API</span>
+					</p>
+				</div>
+				<div class="card-footer">
+					<div class="row portfolio-dual-buttons">
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://codepen.io/SamLegros/full/owdYOL" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
+						</div>
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://github.com/SamLegros/twitch-streamer-status" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div tabindex="0" class="card"><!-- Wikipedia Viewer -->
+				<img class="card-img-top" src="images/portfolio_wikipedia_viewer.png" alt="Screenshot of wikipedia viewer page">
+				<div class="card-body">
+					<h3 class="card-title">Wikipedia Viewer</h3>
+					<p class="card-text">A minimal wikipedia search tool</p>
+					<p class="font-family-text portfolio-item-tools">
+						<span class="badge badge-primary">Bootstrap</span>
+						<span class="badge badge-secondary">CSS3</span>
+						<span class="badge badge-success">HTML5</span>
+						<span class="badge badge-danger">JavaScript</span>
+						<span class="badge badge-warning">jQuery</span>
+						<span class="badge badge-dark">Wikipedia API</span>
+					</p>
+				</div>
+				<div class="card-footer">
+					<div class="row portfolio-dual-buttons">
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://codepen.io/SamLegros/full/KqQwbe" target="_blank" rel="noopener"><button tabindex="-1" class="btn"><span class="button-text">SEE LIVE</span></button></a>
+						</div>
+						<div class="col-8 offset-2 col-sm-6 offset-sm-0">
+							<a href="https://github.com/SamLegros/wikipedia-viewer" target="_blank" rel="noopener"><button tabindex="-1" class="btn btn-alt"><span class="button-text">VIEW CODE</span></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section-connect">
+		<h2 tabindex="0">Let's stay connected</h2>
+		<p tabindex="0" class="color-text-grey">There are many ways we can get in touch&nbsp;<span class="text-emoji align-middle">👋</span></p>
 
-        <div id="contact-icons-container">
-            <a tabindex="0" href="https://github.com/samlegros" target="_blank" rel="noopener" title="Link to Sam Legros' GitHub page"><i class="fab fa-github-square" title="github icon"></i></a>
-            <a tabindex="0" href="https://www.linkedin.com/in/samlegros/" target="_blank" rel="noopener" title="Link to Sam Legros' LinkedIn page"><i class="fab fa-linkedin" title="linkedin icon"></i></a>
-            <a tabindex="0" href="mailto:legros.sam@gmail.com?subject=Awesome%20Website!" target="_blank" rel="noopener" title="This link will open your email client to send an email to Sam Legros"><i class="fas fa-envelope-square" title="email icon"></i></a>
-            <a tabindex="0" href="tel:+16472299122" target="_blank" rel="noopener" title="This link will open your phone client to call Sam Legros"><i class="fas fa-phone-square" title="phone icon"></i></a>
-        </div>
-    </section>
-    <section id="section-settings">
-        <h2 tabindex="0">Make this site your own</h2>
-        <p tabindex="0">
-            Resize Text<br>
-        </p>
-        <div>
-            <button class="btn" type="button" name="font size 100%" title="resize font to 100%">100%</button>
-            <button class="btn" type="button" name="font size 150%" title="resize font to 150%">150%</button>
-            <button class="btn" type="button" name="font size 200%" title="resize font to 200%">200%</button>
-        </div>
-    </section>
-    <footer>
-        <p tabindex="0">Website made with <i class="fas fa-heart" title="love"></i> by Sam Legros in&nbsp;2019</p>
-        <a href="https://www.w3.org/WAI/WCAG2AA-Conformance" target="_blank" rel="noopener" title="Explanation of WCAG 2.0 Level Double-A Conformance"><img height="32" width="88" src="https://www.w3.org/WAI/wcag2AA-blue" alt="Level Double-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0"></a>
-        <!-- WCAG 2.0 Conformance Claim
-        Date: 2019-01-05
-        Guidelines title, version and URI: "Web Content Accessibility Guidelines 2.0 at http://www.w3.org/TR/2008/REC-WCAG20-20081211/
-        Conformance level: Level AA
-        Description of web page: The single web page of Sam Legros's web development portfolio. The page include sections relating to Sam's short biography, technology skills, project examples, and online links.
-        Web content technologies used: Bootstrap CSS 4.1.3, Bootstrap JS 4.13, Devicon CSS, HTML5, CSS3, Google Analytics JS, Google Font: Montserrat, JavaScript, jQuery 3.3.1 slim, Popper.js 1.14.3, smooth-scroll 14.2.1, typed.js 2.0.9, WCAG 2.0 Conformance -->
-    </footer>
-    <a tabindex="0" data-scroll href="#section-home" title="Navigate back to top of page"><button tabindex="-1" class="btn" id="back-to-top-button" title="Navigate back to top of page"><i class="fas fa-arrow-up" title="up arrow icon"></i></button></a>
-    <!-- cdn jQuery 3.3.1 slim -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!-- cdn Popper.js 1.14.3 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <!-- cdn Bootstrap JS 4.1.3 -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- cdn smooth-scroll 14.2.1 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.js" integrity="sha256-/DAPm4qYaIl0u9G+3JfLfQRAS5RE+LnP8/yzOyjtPRY=" crossorigin="anonymous"></script>
-    <!-- cdn typed.js 2.0.9 -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-    <!-- local JavaScript -->
-    <script src="scripts/script.js"></script>
-    <!-- local LiveReload -->
-    <!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+		<div id="contact-icons-container">
+			<a tabindex="0" href="https://github.com/samlegros" target="_blank" rel="noopener" title="Link to Sam Legros' GitHub page"><i class="fab fa-github-square" title="github icon"></i></a>
+			<a tabindex="0" href="https://www.linkedin.com/in/samlegros/" target="_blank" rel="noopener" title="Link to Sam Legros' LinkedIn page"><i class="fab fa-linkedin" title="linkedin icon"></i></a>
+			<a tabindex="0" href="mailto:legros.sam@gmail.com?subject=Awesome%20Website!" target="_blank" rel="noopener" title="This link will open your email client to send an email to Sam Legros"><i class="fas fa-envelope-square" title="email icon"></i></a>
+			<a tabindex="0" href="tel:+16472299122" target="_blank" rel="noopener" title="This link will open your phone client to call Sam Legros"><i class="fas fa-phone-square" title="phone icon"></i></a>
+		</div>
+	</section>
+	<section id="section-settings">
+		<h2 tabindex="0">Make this site your own</h2>
+		<p tabindex="0">
+			Resize Text<br>
+		</p>
+		<div>
+			<button class="btn" type="button" name="font size 100%" title="resize font to 100%">100%</button>
+			<button class="btn" type="button" name="font size 150%" title="resize font to 150%">150%</button>
+			<button class="btn" type="button" name="font size 200%" title="resize font to 200%">200%</button>
+		</div>
+	</section>
+	<footer>
+		<p tabindex="0">Website made with <i class="fas fa-heart" title="love"></i> by Sam Legros in&nbsp;2019</p>
+		<a href="https://www.w3.org/WAI/WCAG2AA-Conformance" target="_blank" rel="noopener" title="Explanation of WCAG 2.0 Level Double-A Conformance"><img height="32" width="88" src="https://www.w3.org/WAI/wcag2AA-blue" alt="Level Double-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0"></a>
+		<!-- WCAG 2.0 Conformance Claim
+		Date: 2019-02-24
+		Guidelines title, version and URI: "Web Content Accessibility Guidelines 2.0 at http://www.w3.org/TR/2008/REC-WCAG20-20081211/
+		Conformance level: Level AA
+		Description of web page: The single web page of Sam Legros's web development portfolio. The page include sections relating to Sam's short biography, technology skills, project examples, and online links.
+		Web content technologies used: Bootstrap CSS 4.1.3, Bootstrap JS 4.13, Devicon CSS, HTML5, CSS3, Google Analytics JS, Google Font: Montserrat, JavaScript, jQuery 3.3.1 slim, Popper.js 1.14.3, smooth-scroll 14.2.1, typed.js 2.0.9, WCAG 2.0 Conformance -->
+	</footer>
+	<a tabindex="0" data-scroll href="#section-home" title="Navigate back to top of page"><button tabindex="-1" class="btn" id="back-to-top-button" title="Navigate back to top of page"><i class="fas fa-arrow-up" title="up arrow icon"></i></button></a>
+	<!-- cdn jQuery 3.3.1 slim -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- cdn Popper.js 1.14.3 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<!-- cdn Bootstrap JS 4.1.3 -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!-- cdn smooth-scroll 14.2.1 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.js" integrity="sha256-/DAPm4qYaIl0u9G+3JfLfQRAS5RE+LnP8/yzOyjtPRY=" crossorigin="anonymous"></script>
+	<!-- cdn typed.js 2.0.9 -->
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+	<!-- local JavaScript -->
+	<script src="scripts/script.js"></script>
+	<!-- local LiveReload -->
+	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </body>
 </html>
