@@ -1,3 +1,3 @@
-## Welcome Sam Legros' Porfolio
+# SamLegros/sam-sverko
 
-You can check it out by visiting [samsverko.com](https://samlegros.github.io/sam-sverko/).
+A pages repository hosting [SamLegros' portfolio website](https://samlegros.github.io/sam-sverko/).
