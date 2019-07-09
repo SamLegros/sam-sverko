@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<!-- Website was last updated on: 2019-06-03 -->
+	<!-- Website was last updated on: 2019-07-09 -->
 	<!-- Global site tag (gtag.js) - Google Analytics [script added: 2019-01-05] -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131763038-1"></script>
 	<script>
@@ -16,8 +16,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- online Google Font: Montserrat -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
-	<!-- cdn Bootstrap CSS 4.1.3 -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- cdn Bootstrap CSS 4.3.1 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- cdn Devicon CSS -->
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<!-- online Font Awesome CSS 5.4.1 -->
@@ -29,7 +29,7 @@
 <body>
 	<section id="section-home">
 		<nav class="navbar navbar-expand-md navbar-light">
-			<a class="navbar-brand font-weight-bold" href="https://www.samsverko.com">Sam Sverko</a>
+			<a class="navbar-brand font-weight-bold" href="http://samsverko.com">Sam Sverko</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -52,7 +52,7 @@
 					</li>
 				</ul>
 				<span class="navbar-text">
-					<a href="https://github.com/SamSverko/ama/issues/new" target="_blank" title="Navigate to Sam Sverko's GitHub ask-me-anything repository and open a new issue"><button tabindex="-1" class="btn"><span class="button-text">CONTACT</span></button></a>
+					<button id="navbar-contact-button" tabindex="-1" class="btn" onclick="copyText()"><span class="button-text">CONTACT</span></button>
 				</span>
 			</div>
 		</nav>
@@ -576,7 +576,7 @@
 		<p tabindex="0">Website made with <i class="fas fa-heart" title="love"></i> by Sam Sverko in&nbsp;2019</p>
 		<a href="https://www.w3.org/WAI/WCAG2AA-Conformance" target="_blank" rel="noopener" title="Explanation of WCAG 2.0 Level Double-A Conformance"><img height="32" width="88" src="https://www.w3.org/WAI/wcag2AA-blue" alt="Level Double-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0"></a>
 		<!-- WCAG 2.0 Conformance Claim
-		Date: 2019-03-08
+		Date: 2019-07-09
 		Guidelines title, version and URI: "Web Content Accessibility Guidelines 2.0 at http://www.w3.org/TR/2008/REC-WCAG20-20081211/
 		Conformance level: Level AA
 		Description of web page: The single web page of Sam Sverko's web development portfolio. The page include sections relating to Sam's short biography, technology skills, project examples, and online links.
@@ -585,10 +585,10 @@
 	<a tabindex="0" data-scroll href="#section-home" title="Navigate back to top of page"><button tabindex="-1" class="btn" id="back-to-top-button" title="Navigate back to top of page"><i class="fas fa-arrow-up" title="up arrow icon"></i></button></a>
 	<!-- cdn jQuery 3.3.1 slim -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<!-- cdn Popper.js 1.14.3 -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<!-- cdn Bootstrap JS 4.1.3 -->
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!-- cdn Popper.js 1.14.7 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<!-- cdn Bootstrap JS 4.3.1 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- cdn smooth-scroll 14.2.1 -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.js" integrity="sha256-/DAPm4qYaIl0u9G+3JfLfQRAS5RE+LnP8/yzOyjtPRY=" crossorigin="anonymous"></script>
 	<!-- cdn typed.js 2.0.9 -->
@@ -596,6 +596,6 @@
 	<!-- local JavaScript -->
 	<script src="scripts/script.js"></script>
 	<!-- local LiveReload -->
-	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>

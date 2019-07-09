@@ -65,3 +65,24 @@ function resizeFont(size) {
 		var cssSheets = document.getElementsByTagName('link');
 	}
 }
+
+// copy text to clipboard
+function copyText() {
+	console.log('Text copied!');
+	// var copyText = document.getElementById('navbar-contact-button');
+	var textArea = document.createElement('textarea');
+	textArea.value = 'sam.sverko@gmail.com';
+	document.body.appendChild(textArea);
+	textArea.select();
+	document.execCommand('copy');
+	textArea.remove();
+}
+
+// enable popovers
+// $(function () {
+//   $('[data-toggle="tooltip"]').tooltip()
+// })
+//
+// $(function () {
+// 	$('[data-toggle="popover"]').popover()
+// })
